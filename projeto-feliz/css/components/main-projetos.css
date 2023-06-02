@@ -1,0 +1,19 @@
+.main-projetos{
+    background-color: #424242;
+    height: 550px;
+    border-bottom: 10px solid black;}
+
+    .main-projetos img{
+        box-sizing: border-box;
+        background-color: #000; /* mesmo se a imagem não tiver fundo é possivel utilizar essa função para add o background a imagem */
+        /* usando o w260+h280 o emmt gera automaticamente as duas funções */
+        width: 260px;
+        height: 280px;
+        box-shadow: 10px 10px 0 #779BF0;
+        cursor: pointer;
+    }
+
+    .box-projetos{
+        display: flex;
+        justify-content: center;
+    }

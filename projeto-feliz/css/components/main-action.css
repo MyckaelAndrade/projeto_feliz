@@ -1,0 +1,18 @@
+.main-action {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 8px;
+    /* fontes serifadas tem pezinho, sans-serif por exemplo não tem serifa. */
+}
+
+/* pseudo elemento - before/after */
+.main-action::before {
+    display: inline-block;
+    /* essa tag é obrigatoria ao usar o after ou before, afinal precisa de um conteúdo */
+    content: "";
+    background-color: #779BF0;;
+    height: 8px;
+    width: 8px;
+}

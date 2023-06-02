@@ -1,0 +1,174 @@
+<!-- usa html5 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- head - cabeça -->
+<!-- mdn = pesquisar tags -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- serve para definir seus caraccteres, nesse caso o utf-8 tem todo um suporte para a maioria das linguas no mundo -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title> Myckael Andrade </title>
+    <!-- style -->
+    <link rel="stylesheet" href="/">
+    <link rel="stylesheet" href="/projeto-feliz/css/components/main-title.css">
+    <link rel="stylesheet" href="/projeto-feliz/css/components/main-logo.css">
+    <link rel="stylesheet" href="/projeto-feliz/css/components/main-box.css">
+    <link rel="stylesheet" href="/projeto-feliz/css/components/main-button.css">
+    <link rel="stylesheet"  href="/projeto-feliz/css/components/main-action.css">
+    <link rel="stylesheet" href="/projeto-feliz/css/components/main-header.css">
+    <link rel="stylesheet" href="/projeto-feliz/css/components/main-banner.css">
+    <link rel="stylesheet" href="/projeto-feliz/css/components/main-skills.css">
+    <link rel="stylesheet" href="/projeto-feliz/css/components/progress-bar.css">
+    <link rel="stylesheet" href="/projeto-feliz/css/components/wrapper.css">
+    <link rel="stylesheet" href="/projeto-feliz/css/components/main-projetos.css">
+    <link rel="stylesheet" href="/projeto-feliz/css/components/main-sobre.css">
+    <link rel="stylesheet" href="/projeto-feliz/css/components/main-description.css">
+    <link rel="stylesheet" href="/projeto-feliz/css/components/button-arrow.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+</head>
+<!-- body (bady - pronúncia) - corpo -->
+
+<body>
+    <!-- Header - Cabeçalho -->
+    <!-- O header é uma tag estrutural, msm que ela não apareça visualmente ao leitor(pessoa),
+        ela é muito importar para determinar a estrutura do html, onde o
+        (SEO) - bot de busca do Google acha seu site com mais facilidade -->
+
+    <!-- header>img+nav>a*5 - Emmet-->
+    <header class="main-header">
+        <!-- nav - navigation - navegar -->
+        <h1 class="main-logo">My</h1>
+        <nav>
+            <!-- O href será atribuido um valor, nesse caso será um caminho -->
+            <!-- ctrl + D - seleciona todas as setenças que estão iguais -->
+            <!-- Se atente a identação -->
+            <!-- na frente da tag tem um espaço, um enter, como se fosse uma palavra separando da outra -->
+            <a class="main-action" href="#" lang="en"> Skills </a>
+            <a class="main-action" href="#"> Projetos </a>
+            <a class="main-action" href="#"> Sobre </a>
+            <a class="main-action" href="#"> Contatos </a>
+            <a class="main-button" href="#" lang="en"> Download CV</a>
+            <!-- id so pode aparecer na pagina uma vez -->
+            <!-- não colocar tag vazia, pois não é valida - validator html w3c -->
+        </nav>
+        <!-- div - não tem valor semântico, ela é apenas uma divisão -->
+    </header>
+
+    <section class="main-banner">
+        <div class="wrapper"> <!--wrapper significa envolver -->
+            <div class="main-box">
+                <h2 class="main-title -primary">Myckael Andrade</h2>
+                <h2 class="subtitle -second">Full-Stack Developer</h2>
+            </div>
+        </div>
+    </section>
+    <!-- Quando temos uma classe com duas palavras separadas por ifem significa que é um componente, se tiver uma palavra é um elemento -->
+    <section class="main-skills">
+        <h2 class="subtitle title-skills">Skills</h2>
+        <div class="wrapper-skills">
+            <article class="box-skills">
+                <!-- define description, description list, são especificas, dessa forma mudamos para article-->
+                <img class="icon" src="/projeto-feliz/assets/img/ico_html5.png" alt="logo do html5">
+                <div class="right">
+                    <h3 class="subtitle">HTML</h3>
+                    <!--description title,  como a dl não foi colocado não faz mais sentido colocar a dt, sendo facilmente substituido pelo h3-->
+                    <progress class="bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+            <article class="box-skills">
+                <img class="icon" src="/projeto-feliz/assets/img/ico_css3.png" alt="logo do css3">
+                <div class="right">
+                    <h3 class="subtitle">CSS</h3>
+                    <!--description title,  como a dl não foi colocado não faz mais sentido colocar a dt, sendo facilmente substituido pelo h3-->
+                    <progress class="bar" max="100" value="50">50%</progress>
+                </div>
+            </article>
+            <article class="box-skills">
+                <img class="icon" src="/projeto-feliz/assets/img/ico_js.png" alt="logo do JavaScript">
+                <div class="right">
+                    <h3 class="subtitle">JavaScript</h3>
+                    <progress class="bar" max="100" value="20">20%</progress>
+                </div>
+            </article>
+            <article class="box-skills">
+                <img class="icon" src="/projeto-feliz/assets/img/ico_nodejs.png" alt="logo do NodeJS">
+                <div class="right">
+                    <h3 class="subtitle">NodeJS</h3>
+                    <progress class="bar" max="100" value="10">10%</progress>
+                </div>
+            </article>
+            <article class="box-skills">
+                <img class="icon" src="/projeto-feliz/assets/img/ico_ux.png" alt="logo do ux">
+                <div class="right">
+                    <h3 class="subtitle">UX</h3>
+                    <progress class="bar" max="100" value="5">5%</progress>
+                </div>
+            </article>
+            <article class="box-skills">
+                <img class="icon" src="/projeto-feliz/assets/img/ico_react.png" alt="logo do REACT">
+                <div class="right">
+                    <h3 class="subtitle">REACT</h3>
+                    <progress class="bar" max="100" value="20">20%</progress>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="main-projetos">
+        <h2 class="subtitle -title-projetos">Projetos</h2>
+        <div class="box-projetos">
+            <a href="">
+                <figure>
+                    <img src="/projeto-feliz/assets/img/ico_netflix.png" alt="logo em pixelart da Netflix">
+                </figure>
+            </a>
+            <a href="http://">
+                <figure>
+                    <img src="/projeto-feliz/assets/img/ico_instagram.png" alt="logo em pixelart do instagram">
+                </figure>
+            </a>
+            <a href="http://">
+                <figure>
+                    <img src="/projeto-feliz/assets/img/ico_pascoa.jpg" alt="logo em pixelart da páscoa">
+                </figure>
+            </a>
+            <a href="">
+                <figure>
+                    <img src="/projeto-feliz/assets/img/ico_capitao-america.png"
+                        alt="logo em pixelart do escudo do capitâo américa">
+                </figure>
+            </a>
+        </div>
+    </section>
+
+    <section class="main-sobre">
+        <h2 class="subtitle -title-projetos">Sobre</h2>
+
+        <p class="main-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error suscipit minus, sunt accusamus sapiente explicabo, eius deleniti recusandae sed cumque veritatis commodi blanditiis quisquam. Molestiae, doloremque? Dolor quas facilis blanditiis.
+        </p>
+        
+        <button class="button-arrow -right"><span class="content">Direita</span></button>
+        <!-- a tag span não tem valor semântico -->
+        <button class="button-arrow -left"><span class="content">Esquerda</span></button>
+    </section>
+
+    <section>
+
+    </section>
+
+    <footer>
+        
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.wrapper-skills{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper-skills .box-skills{
+    width: 430px;
+    margin-bottom: 40px;
+}
+
+/*pseudo-classe :nth-child() é o enésimo filho, onde odd é némeros impares e even e números pares. */
+.wrapper-skills .box-skills:nth-child(odd){
+    margin-right: 140px;
+}
+
+.wrapper-skills .bar{
+    width: 320px;
+}

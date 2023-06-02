@@ -1,0 +1,28 @@
+.main-button {
+    /* o display inline deixa tudo na mesma linha, e não funcionam com width e height */
+    display: inline-block;
+    /* display: block; - ocupa a linha toda */
+    /* No display: block; - height - conteudo */
+    /* No display: block; - widht - 100% pai */
+    /*o html vem por padrao display inline, dessa forma não tem como
+    add largura ou altura, por isso coloca-se display inline-block, e o display block não consegue deixar na mesma linha */
+    /* a propriedade display em si muda o comportamento da tela, pois as tags vem quadrada, ou seja vem com margin. */
+    height: 30px;
+    line-height: 30px;
+    /*  uma boa tecnica para utilizar para centralizar ima linha dentro da caixa, 
+    obs: não funciona se for mais de duas linhas */
+    padding: 4px 8px;
+    box-shadow: 5px 5px 0 black;
+    margin-right: 0;
+    background-color: #779BF0;
+    text-decoration: none;
+    color: #fff;
+    transition: transform 150ms cubic-bezier(.42, 0, .13, 2.98), opacity 150ms ease-in-out;
+    /* animações tem que ter começo, meio e fim */
+}
+
+/* pseudo-classe */
+.main-button:hover {
+    transform: scale(1.1);
+    opacity: .9;
+}

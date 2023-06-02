@@ -1,0 +1,19 @@
+.main-box{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    padding: 30px 40px;
+    background-color: #AF7AC4;
+    /* não possui comprimento (width), pois a função inlin-block já deixa o tamanho predenifido */
+    /* não precisa definir a altura, pois os filhos ja determinam-a */
+    /* Dessa forma a caixa fica adaptável, oque é muito importante, principalmente para manutenção */
+    /* casos de refatoração, deixe o bug e foque na refatoração, depois resolva o bug */
+    box-shadow: 10px 10px 0 black;
+    top: 450px;
+    right: 10px;
+    margin: 2px 30px;
+    /* text-align: inherit; Caso ele não respeite o pai  */
+}
+
+
+

@@ -1,0 +1,26 @@
+.main-banner {
+    background-image: url("/projeto-feliz/assets/img/banner.jpg");
+    background-size: 100%;
+    /* aqui define o tamanho em compreimento (width) */
+    height: 690px;
+    background-repeat: no-repeat;
+    /*tira a repetição do background*/
+    padding: 20px;
+    /*box-sizing: content-box; soma todas as propriedades como: width+margin/padding ou height+margin/padding */
+    box-sizing: border-box;
+}
+
+.main-banner .main-box .title-box {
+    margin-bottom: 20px;
+}
+
+.main-banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+
+.main-banner .navigation {
+    display: flex;
+    justify-content: space-around;
+}

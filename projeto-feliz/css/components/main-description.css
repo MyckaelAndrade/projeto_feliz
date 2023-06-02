@@ -1,0 +1,7 @@
+.main-description{
+    text-align: justify;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.2; /*serve para add espaçamento entre linhas*/
+    font-weight: 300; /*deixa o texto como se estivesse em negrito*/
+}

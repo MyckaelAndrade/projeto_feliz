@@ -1,0 +1,27 @@
+.main-skills{
+    box-sizing: border-box;
+    background-color: #AF7AC4;
+    height: 760px;
+    padding: 30px;
+    border-bottom: 10px solid black;}
+
+.box-skills{
+    display: flex;
+    align-items: center;
+}
+
+.box-skills .icon{
+    margin-right: 25px;
+    width: 95px;
+}
+
+.box-skills .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* usando o display: flex; + o flex-direction: column; invertemos a direção onde será aplicado o justify-content. */
+}
+
+.box-skills .subtitle{
+    margin-bottom: 14px;
+}
